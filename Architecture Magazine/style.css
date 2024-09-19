@@ -1,0 +1,213 @@
+*{
+    letter-spacing: normal;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+body{
+    background-color: #d7d6d4;
+}
+
+.hero{
+    display: flex;
+    justify-content:space-between;
+    margin: 70px;
+}
+
+.line-logo {
+    height: 1px;
+    background-color:black;
+}
+
+nav{
+    padding-top:10px;
+}
+nav>a{
+    padding-left:130px;
+    font-size: larger;
+    text-decoration: none;
+}
+.inp{
+    height: 45px;
+    position: relative;
+    top: -10px;
+    border-left: transparent;
+    border-top: transparent;
+}
+
+.search-btn{
+    height: 35px;
+    width: 100px;
+    position: relative;
+    top: -10px;
+    right: 5px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.line{
+    height: 1px;
+    background-color: black;
+    position: relative;
+    top: 70px;
+    width: 60%;
+    left: 430px;
+}
+
+.nt-wrap{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+.num{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.num-text{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    font-size: large;
+}
+
+.nt-wrap>h1{
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    font-size:80px;
+    font-weight:lighter;
+}
+
+.banner{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.banner-head{
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    margin-top: 15px;
+    margin-left: 26px;
+    font-family: warnock-pro-display, sans-serif;
+    color: #000;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.banner-img{
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 250px;
+    left: 210px;
+}
+
+.banner-p{
+    position: absolute;
+    left: 550px;
+    top: 350px;
+    width: 400px;
+}
+
+.banner-btn{
+    position: absolute;
+    left: 550px;
+    top: 520px;
+    width: 300px;
+    height: 50px;
+}
+
+.card0{
+    display: flex;
+    position: relative;
+    top: -300px;
+    left: 80%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.10);
+}
+
+.banner-c{
+    margin-left:10px;
+}
+
+.banner-pa{
+    position: relative;
+    top: -300px;
+    left: 80%;
+    font-size: large;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.card1{
+    display: flex;
+    position: relative;
+    top: -280px;
+    left: 80%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.10);
+}
+
+.card2{
+    display: flex;
+    position: relative;
+    top: -260px;
+    left: 80%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.10);
+}
+
+.card:hover{
+    background-color:white
+}
+
+.card3{
+    display: flex;
+    position: relative;
+    top: -200px;
+    left: 80%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.10); 
+}
+
+.card4{
+    display: flex;
+    position: relative;
+    top: -180px;
+    left: 80%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.10);
+}
+
+.card5{
+    display: flex;
+    position: relative;
+    top: -160px;
+    left: 80%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.10);
+}
